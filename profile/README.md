@@ -54,6 +54,9 @@ IPs list and development state:
     3. [spi](https://github.com/oscc-ip/tapeout/tree/master/spi/rtl): an apb3-based standard SPI IP.
     4. [uart](https://github.com/oscc-ip/tapeout/tree/master/uart): an apb3-based UART IP compatible with UART16550.
 
+<details>
+  <summary>More Info</summary>
+
 ## Template
 Refer to the [template repo](https://github.com/oscc-ip/template/blob/main). If you want to create a new ip repo, You need to:
 
