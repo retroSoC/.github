@@ -24,7 +24,7 @@ IPs list and development state:
 * FPE: FPGA emu
 * TPT: TAPEOUT test
 
-| IP       | MILESTONE |
+| clusterIP       | MILESTONE |
 | :---:    | :---     |
 | [archinfo](https://github.com/oscc-ip/archinfo) | <img src="https://img.shields.io/badge/SPC-done-green?style=flat-square"> <img src="https://img.shields.io/badge/RTF-done-green?style=flat-square"> <img src="https://img.shields.io/badge/SMT-done-green?style=flat-square"> <img src="https://img.shields.io/badge/UVV-no-wheat?style=flat-square"> <img src="https://img.shields.io/badge/FUC-0-green?style=flat-square"> <img src="https://img.shields.io/badge/COC-0-green?style=flat-square"> <img src="https://img.shields.io/badge/SOI-done-green?style=flat-square"> <img src="https://img.shields.io/badge/FPE-done-green?style=flat-square"> <img src="https://img.shields.io/badge/TPT-no-wheat?style=flat-square"> |
 | [rng](https://github.com/oscc-ip/rng) | <img src="https://img.shields.io/badge/SPC-done-green?style=flat-square"> <img src="https://img.shields.io/badge/RTF-done-green?style=flat-square"> <img src="https://img.shields.io/badge/SMT-done-green?style=flat-square"> <img src="https://img.shields.io/badge/UVV-no-wheat?style=flat-square"> <img src="https://img.shields.io/badge/FUC-0-green?style=flat-square"> <img src="https://img.shields.io/badge/COC-0-green?style=flat-square"> <img src="https://img.shields.io/badge/SOI-done-green?style=flat-square"> <img src="https://img.shields.io/badge/FPE-done-green?style=flat-square"> <img src="https://img.shields.io/badge/TPT-no-wheat?style=flat-square"> |
