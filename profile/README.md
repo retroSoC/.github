@@ -15,7 +15,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | retroSoC | information |
 | :---:    | :---      |
 | TINY | a minimum RV32E educational MCU(<10K instances) |
-| | CORE(**ongoing):** SCP(Single Cylcle Processor) |
+| | CORE(**ongoing):** OSOC CORE(SCP, Single Cylcle Processor) |
 | | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 16-32MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
@@ -23,7 +23,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | PACKAGE: QFN48 |
 | | DEMO: smart band |
 | MINI | a lightweight RV32I/EMC MCU(10K~50K instances) |
-| | CORE: PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV |
+| | CORE: OSOC Core(RV32E), PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, VexRiscv |
 | | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 24-108MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
@@ -32,7 +32,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | PACKAGE: QFN48/64 |
 | | DEMO: smart band, micro quadcopter |
 | STD | a complete RV32IMAC MCU(20K~80K instances) |
-| | CORE(**ongoing):** Hummingbirdv2 E203, CV32E40P, ibex, Harzard3, SCR1, RV12(RVLogic) |
+| | CORE(**ongoing):** Hummingbirdv2 E203, CV32E40P, ibex, Harzard3, SCR1, RV12(RVLogic), VeeR EH1, VexRiscv |
 | | BUS: AHB/AXI bridge(AHB/AXI splitter, AHB/AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
@@ -40,8 +40,8 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1xDMA |
 | | PACKAGE: QFN88 |
 | | DEMO: game console,  |
-| PRO | a high-performance RV64GC SoC |
-| | CORE(**ongoing):** CVA6 |
+| PRO | a high-performance RV632/4GC SoC(60K~200K instances) |
+| | CORE(**ongoing):** OSOC Core(RV64G), Nanhu-G, XiangShan, CVA6, ‌VexRiscv, Rocket Chip, BOOM |
 | | BUS: AXI bridge(AXI splitter, AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
