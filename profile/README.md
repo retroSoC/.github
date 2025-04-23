@@ -40,7 +40,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1xDMA |
 | | PACKAGE: QFN88 |
 | | DEMO: game console |
-| PRO | **A High-performance RV632/4GC SoC(60K~200K instances)** |
+| PRO | **A High-performance RV32/64GC SoC(60K~200K instances)** |
 | | CORE(**ongoing):** OSOC Core(RV64G, A-phase), Nanhu-G(XiangShan), biriscv, CVA6, ‌VexRiscv, Rocket Chip, BOOM, RRV64, GreenRio |
 | | BUS: AXI bridge(AXI splitter, AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC |
