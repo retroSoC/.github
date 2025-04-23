@@ -23,7 +23,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | PACKAGE: QFN48 |
 | | DEMO: smart band |
 | MINI | a lightweight RV32I/EMC MCU(10K~50K instances) |
-| | CORE: OSOC Core(RV32E), PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, VexRiscv |
+| | CORE: OSOC Core(RV32E), PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, FemtoRV32, TinySys, VexRiscv |
 | | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 24-108MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
@@ -39,16 +39,16 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | INTERFACE IP: 2xUART, 16xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xPS2, 1xI2C, 1xQSPI, 1xSDIO |
 | | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1xDMA |
 | | PACKAGE: QFN88 |
-| | DEMO: game console,  |
+| | DEMO: game console |
 | PRO | a high-performance RV632/4GC SoC(60K~200K instances) |
-| | CORE(**ongoing):** OSOC Core(RV64G), Nanhu-G, XiangShan, CVA6, ‌VexRiscv, Rocket Chip, BOOM |
+| | CORE(**ongoing):** OSOC Core(RV64G), Nanhu-G(XiangShan), biriscv, CVA6, ‌VexRiscv, Rocket Chip, BOOM |
 | | BUS: AXI bridge(AXI splitter, AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
 | | INTERFACE IP: 2xUART, 32xGPIO, 4xTIMER, 1xRNG, 4xPWM, 1xPS2, 1xI2C, 2xQSPI, 1xSDIO |
 | | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1xDMA, 1x2D GRAPHIC ACCEL |
 | | PACKAGE: QFP100 |
-| | DEMO:  game console |
+| | DEMO:  game console, single board computer |
 
 IPs list and development state:
 
