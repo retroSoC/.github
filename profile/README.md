@@ -16,9 +16,9 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | :---:    | :---      |
 | TINY | **A Minimum RV32E Educational MCU(<10K instances)** |
 | | CORE(**ongoing):** OSOC CORE(pre-learned, SCP, Single Cylcle Processor) |
-| | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 16-32MHz(SMIC110, IHP/SKY130) |
+| | BUS: NATIVE bridge(NATIVE mux, AXI4L2NATIVE, NATIVE2APB), single power/clock domain, 16-32MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO |
-| | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
+| | MEMORY IP: 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
 | | INTERFACE IP: 2xUART, 4xGPIO, 2xTIMER, 1xI2C, 1xQSPI |
 | | PACKAGE: QFN48 |
 | | DEMO: smart band |
