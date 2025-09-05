@@ -15,7 +15,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | retroSoC | information |
 | :---:    | :---      |
 | TINY | **A Minimum RV32E Educational MCU(<10K instances)** |
-| | CORE(**ongoing):** OSOC CORE(Stage D, SCP, Single Cylcle Processor) |
+| | CORE(**ongoing):** SCP, Single Cylcle Processor |
 | | BUS: NATIVE bridge(NATIVE mux, AXI4L2NATIVE, NATIVE2APB), single power/clock domain, 16-32MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO |
 | | MEMORY IP: 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
@@ -32,7 +32,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | PACKAGE: QFN48/64 |
 | | DEMO: smart band, micro quadcopter |
 | STD | **A Complete RV32IMAC MCU(20K~80K instances)** |
-| | CORE(**ongoing):** OSOC Core(RV32E, Stage B), Hummingbirdv2 E203, CV32E40P, ibex, Harzard3, SCR1, RV12(RVLogic), Glacial, VeeR EH1, VexRiscv |
+| | CORE(**ongoing):** Hummingbirdv2 E203, CV32E40P, ibex, Harzard3, SCR1, RV12(RVLogic), Glacial, VeeR EH1, VexRiscv |
 | | BUS: AHB/AXI bridge(AHB/AXI splitter, AHB/AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
@@ -41,7 +41,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | PACKAGE: QFN88 |
 | | DEMO: game console |
 | PRO | **A High-performance RV32/64GC SoC(60K~200K instances)** |
-| | CORE(**ongoing):** OSOC Core(RV64G, Stage A/S), Nanhu-G(XiangShan), biriscv, CVA6, ‌VexRiscv, Rocket Chip, BOOM, RRV64, GreenRio |
+| | CORE(**ongoing):** Nanhu-G(XiangShan), biriscv, CVA6, ‌VexRiscv, Rocket Chip, BOOM, RRV64, GreenRio |
 | | BUS: AXI bridge(AXI splitter, AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
