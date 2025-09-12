@@ -25,7 +25,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | MINI | **A Lightweight RV32I/EMC MCU(10K~50K instances)** |
 | | CORE: PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, FemtoRV32, TinySys, VexRiscv |
 | | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 24-108MHz(SMIC110, IHP/SKY130) |
-| | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL |
+| | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL, 1xDMA |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
 | | INTERFACE IP: 2xUART, 30xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xWDG, 1xPS2, 1xI2C, 1xQSPI, 1xSPISD, 1XONE-WIRE |
 | | MULTIMEDIA IP: 1xI2S |
@@ -33,11 +33,11 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | DEMO: smart band, micro quadcopter |
 | STD | **A Complete RV32IMAC MCU(20K~80K instances)** |
 | | CORE(**ongoing):** Hummingbirdv2 E203, CV32E40P, ibex, Harzard3, SCR1, RV12(RVLogic), Glacial, VeeR EH1, VexRiscv |
-| | BUS: AHB/AXI bridge(AHB/AXI splitter, AHB/AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
-| | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC |
-| | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
-| | INTERFACE IP: 2xUART, 16xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xPS2, 1xI2C, 1xQSPI, 1xSDIO |
-| | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1xDMA |
+| | BUS: AHB/AXI matrix(AHB/AXI splitter, AHB/AXI2APB), single power, multi clock domain, 72-196MHz(SMIC110, IHP/SKY130) |
+| | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC, 1xSYSCTRL, 1xDMA |
+| | MEMORY IP: 128KB OCM, 16MB QSPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM, 32MB SDRAM |
+| | INTERFACE IP: 3xUART, 30xGPIO, 4xTIMER, 1xRNG, 4xPWM, 1xPS2, 1xI2C, 1xQSPI, 1xSDIO, 1xUSB1.1 |
+| | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1x2D GRAPHIC ACCEL |
 | | PACKAGE: QFN128 |
 | | DEMO: game console |
 | PRO | **A High-performance RV32/64GC SoC(60K~200K instances)** |
