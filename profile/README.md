@@ -25,11 +25,11 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | MINI | **A Lightweight RV32I/EMC MCU(10K~50K instances)** |
 | | CORE: PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, FemtoRV32, TinySys, VexRiscv |
 | | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 24-108MHz(SMIC110, IHP/SKY130) |
-| | SYSTEM IP: 1xARCHINFO, 1xRCU |
+| | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL |
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
-| | INTERFACE IP: 2xUART, 16xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xWDG, 1xPS2, 1xI2C, 1xQSPI, 1xSDIO |
+| | INTERFACE IP: 2xUART, 30xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xWDG, 1xPS2, 1xI2C, 1xQSPI, 1xSPISD, 1XONE-WIRE |
 | | MULTIMEDIA IP: 1xI2S |
-| | PACKAGE: QFN48/64 |
+| | PACKAGE: QFN88/128 |
 | | DEMO: smart band, micro quadcopter |
 | STD | **A Complete RV32IMAC MCU(20K~80K instances)** |
 | | CORE(**ongoing):** Hummingbirdv2 E203, CV32E40P, ibex, Harzard3, SCR1, RV12(RVLogic), Glacial, VeeR EH1, VexRiscv |
@@ -38,7 +38,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
 | | INTERFACE IP: 2xUART, 16xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xPS2, 1xI2C, 1xQSPI, 1xSDIO |
 | | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1xDMA |
-| | PACKAGE: QFN88 |
+| | PACKAGE: QFN128 |
 | | DEMO: game console |
 | PRO | **A High-performance RV32/64GC SoC(60K~200K instances)** |
 | | CORE(**ongoing):** Nanhu-G(XiangShan), biriscv, CVA6, ‌VexRiscv, Rocket Chip, BOOM, RRV64, GreenRio |
@@ -47,7 +47,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM, 32MB DDR OPI PSRAM |
 | | INTERFACE IP: 2xUART, 32xGPIO, 4xTIMER, 1xRNG, 4xPWM, 1xPS2, 1xI2C, 2xQSPI, 1xSDIO |
 | | MULTIMEDIA IP: 1xI2S, 1xVGA, 1xDVP, 1xDMA, 1x2D GRAPHIC ACCEL |
-| | PACKAGE: QFP100 |
+| | PACKAGE: QFP128 |
 | | DEMO:  game console, single board computer |
 
 IPs list and development state:
