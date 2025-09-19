@@ -36,7 +36,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | BUS: AHB/AXI matrix(AHB/AXI splitter, AHB/AXI2APB), single power, multi clock domain, 72-600MHz(ICS55, IHP/SKY130, SMIC110) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC, 1xSYSCTRL, 1xDMA |
 | | MEMORY IP: 0-512KB OCM, 16MB QSPI NOR FLASH, 512KB/1MB QPI FRAM, 8-32MB(8MBx4) QPI PSRAM, 32MB DDR OPI PSRAM, 32MB SDRAM |
-| | INTERFACE IP: 3xUART, 30xGPIO, 6xTIMER, 1xRNG, 8xPWM, 2xWDG, 1xRTC, 1xPS2, 2xI2C, 2xQSPI, 1xSDIO, 1xONE-WIRE, 1xCRC, 1xUSB1.1 |
+| | INTERFACE IP: 3xUART, 30xGPIO, 6xTIMER, 1xRNG, 8xPWM, 2xWDG, 1xRTC, 1xPS2, 2xI2C, 1xI3C, 2xQSPI, 1xSDIO, 1xONE-WIRE, 1xCRC, 1xUSB1.1 |
 | | MULTIMEDIA IP: 1xI2S, 1xVGALCD, 1xDVP, 1x2D GRAPHIC ACCEL |
 | | PACKAGE: QFN128 |
 | | DEMO: game console |
@@ -45,7 +45,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | BUS: AXI bridge(AXI splitter, AXI2APB), single power, multi clock domain, 100-800MHz(IC55, IHP/SKY130, SMIC110) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1XPLIC, 1xSYSCTRL, 1xDMA |
 | | MEMORY IP: 0-1024KB OCM, 16MB SPI NOR FLASH, 8-32MB(8MBx4) QPI PSRAM, 32MB DDR OPI PSRAM, 32MB SDRAM |
-| | INTERFACE IP: 3xUART, 32xGPIO, 8xTIMER, 1xRNG, 10xPWM, 2xWDG, 1xRTC, 1xPS2, 2xI2C, 2xQSPI, 1xSDIO, 1xCRC, 1xUSB1.1 |
+| | INTERFACE IP: 3xUART, 32xGPIO, 8xTIMER, 1xRNG, 10xPWM, 2xWDG, 1xRTC, 1xPS2, 2xI2C, 1xI3C, 2xQSPI, 1xSDIO, 1xCRC, 1xUSB1.1 |
 | | MULTIMEDIA IP: 1xI2S, 1xVGALCD, 1xDVP, 1x2D GRAPHIC ACCEL，1xGPU(support OpenGL1.x) |
 | | PACKAGE: QFP144 |
 | | DEMO:  Game Console, single board computer |
