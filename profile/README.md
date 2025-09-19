@@ -16,7 +16,7 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | :---:    | :---      |
 | TINY | **A Minimum RV32E Educational MCU(<10K instances)** |
 | | CORE(**ongoing):** SCP, Single Cylcle Processor |
-| | BUS: NATIVE bridge(NATIVE mux, AXI4L2NATIVE, NATIVE2APB), single power/clock domain, 16-32MHz(SMIC110, IHP/SKY130) |
+| | BUS: NATIVE bridge(NATIVE mux, AXI4L2NATIVE, NATIVE2APB), single power/clock domain, 16-64MHz(IC55, IHP/SKY130, SMIC110) |
 | | SYSTEM IP: 1xARCHINFO |
 | | MEMORY IP: 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
 | | INTERFACE IP: 2xUART, 4xGPIO, 2xTIMER, 1xI2C, 1xQSPI |
@@ -24,10 +24,10 @@ retroSoC contains a bundle of IPs which aim to improve development experience of
 | | DEMO: smart band |
 | MINI | **A Lightweight RV32I/EMC MCU(10K~50K instances)** |
 | | CORE: PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, FemtoRV32, TinySys, VexRiscv |
-| | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 24-108MHz(SMIC110, IHP/SKY130) |
+| | BUS: NATIVE bridge(NATIVE mux, NATIVE2APB), single power/clock domain, 24-192MHz(ICS55, IHP/SKY130, SMIC110) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL, 1xDMA |
-| | MEMORY IP: 128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8/16MB QPI PSRAM |
-| | INTERFACE IP: 2xUART, 30xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xWDG, 1xPS2, 1xI2C, 1xQSPI, 1xSPISD, 1XONE-WIRE |
+| | MEMORY IP: 0~128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8~32MB(8MBx4) QPI PSRAM |
+| | INTERFACE IP: 2xUART, 30xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xWDG, 1xPS2, 2xI2C, 1xQSPI, 1xSPISD, 1XONE-WIRE |
 | | MULTIMEDIA IP: 1xI2S |
 | | PACKAGE: QFN88/128 |
 | | DEMO: smart band, micro quadcopter |
