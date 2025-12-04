@@ -5,7 +5,7 @@
 Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC template** for end customers or students who want to integrate their own design into a shared fabrication wafer **(shuttle)**.
 
 ## Datasheet
-* [retroSoC Mini Series Datasheet](https://github.com/retroSoC/.github/blob/main/doc/retroSoC-mini-datasheet.pdf)
+* [(updating) retroSoC Mini Series Datasheet](https://github.com/retroSoC/.github/blob/main/doc/retroSoC-mini-datasheet.pdf)
 
 ## Product Series
 <div align="center">
@@ -13,6 +13,9 @@ Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC templa
 </div>
 
 ## Roadmap
+<div align="center">
+  <img src="https://raw.githubusercontent.com/retroSoC/.github/refs/heads/main/img/retroSoC-Roadmap.svg" alt="product-roadmap">
+</div>
 
 <!-- | Type | List |
 | :---: | :---: |
@@ -22,7 +25,7 @@ Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC templa
 | Graphics   | vga, hdmi, lcd, mipi-dsi, video-engine, gpu |
 | Communication | usb, ethernet, pcie |
 | Application | crc, aes, sha, rsa, rng, foc, cnn, isp | -->
-## Product List
+## Product Specification
 | retroSoC | information |
 | :---:    | :---      |
 | TINY | **A Minimum RV32E Educational MCU(<10K instances)** |
