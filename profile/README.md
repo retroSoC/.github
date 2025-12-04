@@ -1,6 +1,8 @@
 ## Hi, retroSoC 👋
 
-retroSoC contains a bundle of IPs which aim to improve development experience of processor and SoC design. Now it mainly focus on frontend and verification field. We hope it can be integrated by other components to build a common workflow for agile hardware development from frontend to backend one day.
+**retroSoC** is a fully open-source and customizable ASIC framework for **“retro-style”** applications. it is both straightforward to use and highly compatible with EDA toolchains — specifically targeting open-source EDA **(iEDA, OpenROAD, etc)**.
+
+Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC template** for end customers or students who want to integrate their own design into a shared fabrication wafer **(shuttle)**.
 
 ## Motivation
 <!-- | Type | List |
