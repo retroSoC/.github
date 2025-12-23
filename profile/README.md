@@ -37,7 +37,7 @@ Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC templa
 | | PACKAGE: QFN48 |
 | | DEMO: smart band |
 | MINI | **A Lightweight RV32I/EMC MCU(10K~50K instances)** |
-| | CORE: PicoRV32, KianV(RV32E, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, FemtoRV32, TinySys, VexRiscv |
+| | CORE: PicoRV32, KianV(RV32I, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, FemtoRV32, TinySys, VexRiscv |
 | | BUS: NMI bridge(NMI2AXI, NMI2APB), single power/clock domain, 24-192MHz(ICS55, IHP/SKY130, SMIC110) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL, 1xDMA |
 | | MEMORY IP: 0-128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8-32MB(8MBx4) QPI PSRAM |
@@ -102,7 +102,7 @@ IPs list and development state:
 | other | |
 | [tapeout<sup>1</sup>](https://github.com/retroSoC/tapeout) | <img src="https://img.shields.io/badge/SPC-done-green?style=flat-square"> <img src="https://img.shields.io/badge/RTF-done-green?style=flat-square"> <img src="https://img.shields.io/badge/SMT-done-green?style=flat-square"> <img src="https://img.shields.io/badge/UVV-no-wheat?style=flat-square"> <img src="https://img.shields.io/badge/FUC-0-green?style=flat-square"> <img src="https://img.shields.io/badge/COC-0-green?style=flat-square"> <img src="https://img.shields.io/badge/SOI-done-green?style=flat-square"> <img src="https://img.shields.io/badge/FPE-done-green?style=flat-square"> <img src="https://img.shields.io/badge/TPT-done-green?style=flat-square"> |
 
-1. this PRIVATE [repo](https://github.com/retroSoC/tapeout)  contains some tapeout-verified IPs:
+1. this archive [repo](https://github.com/retroSoC/tapeout)  contains some old tapeout-verified IPs:
     1. [chiplink](https://github.com/retroSoC/tapeout/tree/master/chiplink): a 8-bits D2D(die-to-die) bus interface derived from SiFive ChipLink.
     2. [keyboard](https://github.com/retroSoC/tapeout/tree/master/chiplink): an axi4-lite based ps2 keyboard IP.
     3. [spi](https://github.com/retroSoC/tapeout/tree/master/spi/rtl): an apb3-based standard SPI IP.
