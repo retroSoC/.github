@@ -39,9 +39,9 @@ Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC templa
 | MINI | **A Lightweight RV32I/EMC MCU(10K~50K instances)** |
 | | CORE: PicoRV32, KianV(RV32I, tt07, RVIMA, tt06), SERV, **ongoing:** DarkRISCV, tinyQV, FemtoRV32, TinySys, VexRiscv |
 | | BUS: NMI bridge(NMI2AXI, NMI2APB), single power/clock domain, 24-192MHz(ICS55, IHP/SKY130, SMIC110) |
-| | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL, 1xDMA |
+| | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL, 1xCLINT, 1xDMA |
 | | MEMORY IP: 0-128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8-32MB(8MBx4) QPI PSRAM |
-| | INTERFACE IP: 2xUART, 30xGPIO, 2xTIMER, 1xRNG, 4xPWM, 1xWDG, 1xPS2, 2xI2C, 1xQSPI, 1xSPISD, 1XONE-WIRE |
+| | INTERFACE IP: 2xUART, 30xGPIO, 3xTIMER, 1xRNG, 4xPWM, 1xWDG, 1xPS2, 2xI2C, 2xQSPI, 1xSPISD, 1XONE-WIRE |
 | | MULTIMEDIA IP: 1xI2S |
 | | PACKAGE: QFN88/128 |
 | | DEMO: smart band, micro quadcopter |
