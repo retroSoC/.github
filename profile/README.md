@@ -37,7 +37,7 @@ Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC templa
 | | PACKAGE: QFN48 |
 | | DEMO: smart band |
 | MINI | **A Lightweight RV32I/EMC MCU(10K~50K instances)** |
-| | CORE: PicoRV32, KianV(RV32I, tt07), **ongoing:** DarkRISCV, SERV, tinyQV, FemtoRV32, TinySys, VexRiscv |
+| | CORE: PicoRV32, KianV(RV32I, tt07, RVIMA, tt06), SERV, **ongoing:** DarkRISCV, tinyQV, FemtoRV32, TinySys, VexRiscv |
 | | BUS: NMI bridge(NMI2AXI, NMI2APB), single power/clock domain, 24-192MHz(ICS55, IHP/SKY130, SMIC110) |
 | | SYSTEM IP: 1xARCHINFO, 1xRCU, 1xSYSCTRL, 1xDMA |
 | | MEMORY IP: 0-128KB OCM, 16MB SPI NOR FLASH, 512KB/1MB QPI FRAM, 8-32MB(8MBx4) QPI PSRAM |
