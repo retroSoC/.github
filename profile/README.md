@@ -25,7 +25,7 @@ Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC templa
 | Graphics   | vga, hdmi, lcd, mipi-dsi, video-engine, gpu |
 | Communication | usb, ethernet, pcie |
 | Application | crc, aes, sha, rsa, rng, foc, cnn, isp | -->
-## Product Specification
+<!--## Product Specification
 | retroSoC | information |
 | :---:    | :---      |
 | TINY | **A Minimum RV32E Educational MCU(<10K instances)** |
@@ -63,7 +63,7 @@ Additionally, retroSoC can also serve as a flexible, reconfigurable **SoC templa
 | | MULTIMEDIA IP: 1xI2S, 1xVGALCD, 1xDVP, 1x2D GRAPHIC ACCEL，1xAUDIO DECODER, 1xGPU(support OpenGL1.x) |
 | | PACKAGE: QFP144 |
 | | DEMO:  Game Console, single board computer |
-
+-->
 ## IP List
 IPs list and development state:
 
